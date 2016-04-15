@@ -53,6 +53,10 @@
             </intent-filter>
         </activity>
 
+        <service android:name=".RegistrationIntentService"
+            android:exported="false">
+        </service>
+
     </application>
 
 </manifest>
